@@ -2,6 +2,9 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
 	plugins: [require("daisyui")],
+	daisyui: {
+		themes: ["business"],
+	  },
 	content: [
 		"./pages/**/*.{js,ts,jsx,tsx,mdx}",
 		"./components/**/*.{js,ts,jsx,tsx,mdx}",
